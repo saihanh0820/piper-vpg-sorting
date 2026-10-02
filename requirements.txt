@@ -1,0 +1,7 @@
+numpy>=1.21
+PyYAML>=5.3
+# Optional on the robot computer:
+# opencv-python
+# torch
+# ultralytics
+

@@ -1,0 +1,13 @@
+<launch>
+  <arg name="use_sim" default="true" />
+  <arg name="workspace_config" default="$(find piper_vpg_ros)/config/workspace.yaml" />
+  <arg name="observe_config" default="$(find piper_vpg_ros)/config/observe_pose.yaml" />
+  <arg name="bins_config" default="$(find piper_vpg_ros)/config/sorting_bins.yaml" />
+  <!-- Start the official piper_ros and realsense nodes separately after their site-specific configuration is verified. -->
+  <node pkg="piper_vpg_ros" type="sorting_manager_node.py" name="sorting_manager" output="screen">
+    <param name="use_sim" value="$(arg use_sim)" />
+    <param name="workspace_config" value="$(arg workspace_config)" />
+    <param name="observe_config" value="$(arg observe_config)" />
+    <param name="bins_config" value="$(arg bins_config)" />
+  </node>
+</launch>

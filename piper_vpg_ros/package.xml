@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>piper_vpg_ros</name>
+  <version>0.1.0</version>
+  <description>Safe ROS Noetic orchestration for VPG connector sorting.</description>
+  <maintainer email="student@example.com">student</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+</package>
+

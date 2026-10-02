@@ -1,0 +1,5 @@
+bins:
+  connector_a: {x: 0.28, y: -0.28, z: 0.12}
+  connector_b: {x: 0.28, y: 0.00, z: 0.12}
+  connector_c: {x: 0.28, y: 0.28, z: 0.12}
+
